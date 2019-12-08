@@ -4,7 +4,6 @@ import math
 def calc_fuel(mass):
     return math.floor(mass / 3) - 2
 
-
 def calc_fuel_complete(mass):
     """Calculates fuel requirements for a given
     mass, taking into account that additional
@@ -39,5 +38,5 @@ def part_two(file):
     print(total)
 
 
-if __name__ == '__main__':
-    part_two('inputs/day_1.txt')
+if __name__ == "__main__":
+    part_two("inputs/day_1.txt")
